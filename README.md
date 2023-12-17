@@ -27,6 +27,27 @@ res.status(201).json :
 }
 ```
 
+## Isi Data/Update Akun
+
+Route : /updatedetail  
+Method : POST  
+req.body :
+
+```json
+{
+	"tinggibadan": "182",
+	"beratbadan": "58",
+	"umur": "20"
+}
+```
+
+res.status(201).json :
+
+```json
+{"error":false,"status":"success","message":"User Created"}
+```
+
+
 ## Login Akun
 
 Route : /login  
